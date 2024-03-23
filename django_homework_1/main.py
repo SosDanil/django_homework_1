@@ -9,7 +9,7 @@ class MyServer(BaseHTTPRequestHandler):
 
     def __get_index(self):
 
-        with open('../index.html', 'r') as file:
+        with open('index.html', 'r') as file:
             response = file.read()
 
         return response
